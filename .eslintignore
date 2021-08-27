@@ -1,0 +1,11 @@
+.git
+.npmrc
+.yarnrc
+build
+dist
+es
+**/node_modules/**
+coverage
+docs
+ios
+.eslintrc.js
