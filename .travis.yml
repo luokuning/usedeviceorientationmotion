@@ -1,0 +1,11 @@
+language: node_js
+os:
+  - linux
+node_js:
+  - '14'
+cache: yarn
+notifications:
+  email: false
+script:
+  - yarn build
+
