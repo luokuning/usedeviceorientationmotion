@@ -5,7 +5,8 @@ node_js:
   - '14'
 cache: yarn
 notifications:
-  email: false
+  email:
+    - i91935058@gmail.com
 script:
   - yarn build
 
