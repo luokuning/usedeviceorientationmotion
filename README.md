@@ -14,6 +14,8 @@ yarn add usedeviceorientationmotion
 
 ### Usage
 
-```typescript jsx
+```jsx
 import useDeviceOrientationValue from 'usedeviceorientationmotion'
+
+function App() {}
 ```
