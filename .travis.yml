@@ -6,9 +6,7 @@ node_js:
 cache: yarn
 notifications:
   email:
-    recipients:
-      - i91935058@gmail.com
-    on_success: always
+    - i91935058@gmail.com
 script:
   - yarn lint
   - yarn build
