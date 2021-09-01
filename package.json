@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "lint": "eslint src",
-    "build": "tsc"
+    "build": "tsc",
+    "release": "semantic-release"
   },
   "keywords": [
     "DeviceOrientation",
