@@ -10,4 +10,5 @@ notifications:
 script:
   - yarn lint
   - yarn build
+  - yarn release
 

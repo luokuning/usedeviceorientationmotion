@@ -10,7 +10,13 @@
   <img src="https://github.com/luokuning/usedeviceorientationmotion/blob/main/assets/motion.gif?raw=true" />
 </p>
 
+`usedeviceorientationmotion` track device orientation event via [react-native-sensors](https://github.com/react-native-sensors/react-native-sensors), and calculate the right
+rotation angle (`rotationX`, `rotationY`). It also leverages [thress.js](https://github.com/mrdoob/three.js) to avoid [glimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock) problem.
+
+
 ### Install
+
+Install `usedeviceorientationmotion` and it's peer dependencies.
 ```bash
 npm i usedeviceorientationmotion react-native-sensors three
 # or
