@@ -95,3 +95,15 @@ export default App
 | limit        | number | 15            | The maximum degree                              |
 | sensitivityX | number | 180           | The ratio that react to device motion in X axis |
 | sensitivityY | number | 90            | The ratio that react to device motion in Y axis |
+
+
+### Return
+```jsx
+const { rotation, subscribe, unsubscribe } = useDeviceOrientationValue()
+```
+
+| Value       | Type                     | Desciption                           |
+|-------------|--------------------------|--------------------------------------|
+| rotation    | { x: number; y: number } | Rotation angle                       |
+| subscribe   | () => void               | Subscribe device orientation event   |
+| unsubscribe | () => void               | Unsubscribe device orientation event |
