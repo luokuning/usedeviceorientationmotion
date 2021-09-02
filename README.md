@@ -87,3 +87,11 @@ const styles = StyleSheet.create({
 export default App
 
 ```
+
+### Paramters
+
+| Key          | Type   | Default Value | Description                                     |
+|--------------|--------|---------------|-------------------------------------------------|
+| limit        | number | 15            | The maximum degree                              |
+| sensitivityX | number | 180           | The ratio that react to device motion in X axis |
+| sensitivityY | number | 90            | The ratio that react to device motion in Y axis |
