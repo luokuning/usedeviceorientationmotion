@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: none;">useDeviceOrientationMotion</h1>
-<h3 align="center">Card like rotation Value built on top of device orientation event</h3>
+<h3 align="center">Card like rotation Value built on top of device orientation event for react-native</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
