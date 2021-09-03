@@ -9,9 +9,11 @@
     "dist/"
   ],
   "scripts": {
+    "test": "echo NO TEST YET",
     "lint": "eslint src",
     "build": "tsc",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "prepare": "husky install"
   },
   "keywords": [
     "DeviceOrientation",
@@ -51,7 +53,8 @@
     "react-native-sensors": "^7.3.3",
     "semantic-release": "17.4.7",
     "three": "^0.132.0",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "husky": "^7.0.0"
   },
   "release": {
     "branches": [
