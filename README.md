@@ -2,8 +2,9 @@
 <h3 align="center">Card like rotation Value built on top of device orientation event for react-native</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
-  <img src="https://img.shields.io/npm/v/usedeviceorientationmotion/latest.svg" />
+  <img alt="sementic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
+  <img alt="npm latest version" src="https://img.shields.io/npm/v/usedeviceorientationmotion/latest.svg" />
+  <img alt="RPs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
   <br />
   <br />
   <br />
