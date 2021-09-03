@@ -11,6 +11,7 @@
   "scripts": {
     "test": "echo NO TEST YET",
     "lint": "eslint src",
+    "lint:fix": "yarn lint --fix",
     "build": "tsc",
     "release": "semantic-release",
     "prepare": "husky install"
