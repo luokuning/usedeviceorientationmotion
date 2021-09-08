@@ -42,6 +42,15 @@ it('should subscribe and unsubscribe orientation event', () => {
   expect(unsubscribe).toHaveBeenCalledTimes(1)
 })
 
+it('should not subscribe again on rerender', () => {
+  const { rerender } = renderHook(() => useDeviceOrientationValue())
+  expect(orientation.subscribe).toHaveBeenCalledTimes(1)
+
+  rerender()
+
+  expect(orientation.subscribe).toHaveBeenCalledTimes(1)
+})
+
 it('should return desired value', () => {
   const { result } = renderHook(() => useDeviceOrientationValue())
 

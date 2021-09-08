@@ -1,6 +1,7 @@
 import type { Config } from '@jest/types'
 
 const config: Config.InitialOptions = {
+  clearMocks: true,
   collectCoverage: true,
   collectCoverageFrom: ['src/**'],
   preset: 'ts-jest/presets/default-esm',
