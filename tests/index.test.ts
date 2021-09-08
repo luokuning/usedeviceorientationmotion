@@ -53,5 +53,3 @@ it('should return desired value', () => {
   expect(typeof result.current.subscribe).toBe('function')
   expect(typeof result.current.unsubscribe).toBe('function')
 })
-
-it('should throw error when props is not valid type', () => {})
