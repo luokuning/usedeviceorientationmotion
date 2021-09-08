@@ -15,6 +15,24 @@ jest.mock('react-native-sensors', () => ({
   },
 }))
 
+it('should throw error with invalid limit param', () => {
+  // @ts-ignore
+  const { result } = renderHook(() => useDeviceOrientationValue({ limit: 'a' }))
+  expect(result.error).toBeInstanceOf(TypeError)
+})
+
+it('should throw error with invalid sensitivityX param', () => {
+  // @ts-ignore
+  const { result } = renderHook(() => useDeviceOrientationValue({ sensitivityX: 'x' }))
+  expect(result.error).toBeInstanceOf(TypeError)
+})
+
+it('should throw error with invalid sensitivityY param', () => {
+  // @ts-ignore
+  const { result } = renderHook(() => useDeviceOrientationValue({ sensitivityY: 'y' }))
+  expect(result.error).toBeInstanceOf(TypeError)
+})
+
 it('should subscribe and unsubscribe orientation event', () => {
   const { unmount } = renderHook(() => useDeviceOrientationValue())
   expect(orientation.subscribe).toHaveBeenCalledTimes(1)

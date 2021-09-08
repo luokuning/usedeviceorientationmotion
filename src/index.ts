@@ -29,6 +29,14 @@ export default function useDeviceOrientationValue({
   const subscription = useRef<{ unsubscribe: () => void }>()
   const initRotation = useRef<{ x: number; y: number }>()
 
+  if (
+    typeof limit !== 'number' ||
+    typeof sensitivityX !== 'number' ||
+    typeof sensitivityY !== 'number'
+  ) {
+    throw new TypeError('limit, sensitivityX, sensitivityY must be number')
+  }
+
   const limitRotateDegree = (degree: number) => {
     if (degree > 0) {
       if (degree > limit) {
