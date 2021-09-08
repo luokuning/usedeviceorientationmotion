@@ -5,9 +5,13 @@
     "outDir": "dist",
     "target": "ES2015",
     "module": "ES2015",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "esModuleInterop": true
   },
   "include": [
     "src",
+    "tests",
+    "jest.config.ts",
+    "fakeModule"
   ]
 }

@@ -9,4 +9,5 @@ notifications:
     - i91935058@gmail.com
 script:
   - yarn lint
+  - yarn test
   - yarn build

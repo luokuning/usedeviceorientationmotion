@@ -9,7 +9,7 @@
     "dist/"
   ],
   "scripts": {
-    "test": "echo NO TEST YET",
+    "test": "jest",
     "lint": "eslint src",
     "lint:fix": "yarn lint --fix",
     "build": "tsc",
@@ -37,6 +37,9 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@jest/types": "^27.1.0",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/jest": "^27.0.1",
     "@types/react": "^17.0.19",
     "@types/three": "^0.131.0",
     "@typescript-eslint/eslint-plugin": "4.30.0",
@@ -49,13 +52,17 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^7.0.0",
+    "jest": "^27.1.0",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "react-native-sensors": "^7.3.3",
+    "react-test-renderer": "^17.0.2",
     "semantic-release": "17.4.7",
     "three": "^0.132.0",
-    "typescript": "^4.4.2",
-    "husky": "^7.0.0"
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
   },
   "release": {
     "branches": [

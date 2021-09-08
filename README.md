@@ -95,6 +95,9 @@ export default App
 
 ```
 
+### ⚠️ Caution
+Remember to add `{ perspective: 800 }` style for the element you want to animate.
+
 ### Paramters
 
 | Key          | Type   | Default Value | Description                                     |
