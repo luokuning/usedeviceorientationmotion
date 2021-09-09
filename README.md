@@ -5,6 +5,7 @@
   <img alt="npm latest version" src="https://img.shields.io/npm/v/usedeviceorientationmotion/latest.svg" />
   <img alt="travis build" src="https://img.shields.io/travis/luokuning/usedeviceorientationmotion/main" />
   <img alt="RPs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+  <img alt="license" src="https://img.shields.io/npm/l/usedeviceorientationmotion" />
   <img alt="sementic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
   <br />
   <br />
