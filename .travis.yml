@@ -8,6 +8,9 @@ notifications:
   email:
     - i91935058@gmail.com
 script:
+  - yarn global add codecov
   - yarn lint
   - yarn test
   - yarn build
+after_success:
+  - codecov
