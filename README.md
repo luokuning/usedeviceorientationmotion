@@ -14,13 +14,15 @@
   <img src="https://github.com/luokuning/usedeviceorientationmotion/blob/main/assets/motion.gif?raw=true" />
 </p>
 
-`usedeviceorientationmotion` track device orientation event via [react-native-sensors](https://github.com/react-native-sensors/react-native-sensors), and calculate the right
-rotation angle (`rotationX`, `rotationY`). It also leverages [three.js](https://github.com/mrdoob/three.js) to avoid [gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock) problem.
-
+`usedeviceorientationmotion` track device orientation event
+via [react-native-sensors](https://github.com/react-native-sensors/react-native-sensors), and calculate the right
+rotation angle (`rotationX`, `rotationY`). It also leverages [three.js](https://github.com/mrdoob/three.js) to
+avoid [gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock) problem.
 
 ### Install
 
 Install `usedeviceorientationmotion` and it's peer dependencies.
+
 ```bash
 npm i usedeviceorientationmotion react-native-sensors three
 # or
@@ -57,7 +59,12 @@ const App = () => {
       <Text
         style={[
           styles.title,
-          { transform: [{ translateX: rotation.x * 0.3 }, { translateY: rotation.y * 0.3 }] },
+          {
+            transform: [
+              { translateX: rotation.x * 0.3 },
+              { translateY: rotation.y * 0.3 },
+            ]
+          },
         ]}>
         CREDIT CARD
       </Text>
@@ -99,6 +106,7 @@ export default App
 ```
 
 ### ⚠️ Caution
+
 Remember to add `{ perspective: 800 }` style for the element you want to animate.
 
 ### Paramters
@@ -109,8 +117,8 @@ Remember to add `{ perspective: 800 }` style for the element you want to animate
 | sensitivityX | number | 180           | The ratio that react to device motion in X axis |
 | sensitivityY | number | 90            | The ratio that react to device motion in Y axis |
 
-
 ### Return
+
 ```jsx
 const { rotation, subscribe, unsubscribe } = useDeviceOrientationValue()
 ```
