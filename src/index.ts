@@ -21,7 +21,7 @@ export default function useDeviceOrientationValue({
   limit = 15,
   sensitivityX = 180,
   sensitivityY = 90,
-}: Props = {}) {
+}) {
   const [rotation, setRotation] = useState({
     x: 0,
     y: 0,
