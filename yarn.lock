@@ -6381,10 +6381,10 @@ text-table@^0.2.0, text-table@~0.2.0:
   resolved "https://registry.nlark.com/text-table/download/text-table-0.2.0.tgz?cache=0&sync_timestamp=1618846790938&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftext-table%2Fdownload%2Ftext-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-three@^0.132.0:
-  version "0.132.0"
-  resolved "https://registry.nlark.com/three/download/three-0.132.0.tgz#7c3197608c8ba1e9570ed078e1060f45e48d7fd3"
-  integrity sha1-fDGXYIyLoelXDtB44QYPReSNf9M=
+three@^0.137.0:
+  version "0.137.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.0.tgz#0ebd6ba66637a332c31f234bcdd35aeec071a6e3"
+  integrity sha512-rzSDhia6cU35UCy6y+zEEws6vSgytfHqFMSaBvUcySgzwvDO6vETyswtSNi/+aVqJw8WLMwyT1mlQQ1T/dxxOA==
 
 throat@^6.0.1:
   version "6.0.1"
