@@ -58,7 +58,7 @@
     "react": "^17.0.2",
     "react-native-sensors": "^7.3.3",
     "react-test-renderer": "^17.0.2",
-    "semantic-release": "17.4.7",
+    "semantic-release": "19.0.3",
     "three": "^0.132.0",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
